@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+tripcare.db
+*.inspect.ndjson
+~$*.xlsx

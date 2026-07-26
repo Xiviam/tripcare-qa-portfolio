@@ -1,0 +1,11 @@
+{
+  "query": "BAGGAGE",
+  "results": [
+    {
+      "id": 1,
+      "title": "How to add baggage",
+      "body": "Baggage can be added from the booking details page.",
+      "tags": "baggage,web,mobile"
+    }
+  ]
+}

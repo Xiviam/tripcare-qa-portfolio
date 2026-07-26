@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "email": "customer@example.com",
+    "full_name": "Ivan Ivanov",
+    "role": "customer",
+    "active": true
+  },
+  {
+    "id": 2,
+    "email": "agent@example.com",
+    "full_name": "Support Agent",
+    "role": "support_agent",
+    "active": true
+  },
+  {
+    "id": 3,
+    "email": "admin@example.com",
+    "full_name": "TripCare Admin",
+    "role": "admin",
+    "active": true
+  }
+]

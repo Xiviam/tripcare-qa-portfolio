@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "pnr": "TC1001",
+    "last_name": "Ivanov",
+    "status": "confirmed",
+    "contact_email": "bad-email",
+    "contact_phone": "+79991234567",
+    "timezone": "Europe/Moscow"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "pnr": "TC1001",
+  "last_name": "Ivanov",
+  "status": "confirmed",
+  "contact_email": "ok@example.test",
+  "contact_phone": "12",
+  "timezone": "Europe/Moscow"
+}

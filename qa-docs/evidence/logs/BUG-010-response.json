@@ -1,0 +1,65 @@
+[
+  {
+    "id": 7,
+    "booking_id": 1,
+    "subject": "Page size 2",
+    "message": "Pagination evidence message",
+    "status": "open",
+    "severity": "low",
+    "created_at": "2026-07-26T15:59:18.825659"
+  },
+  {
+    "id": 6,
+    "booking_id": 1,
+    "subject": "Page size 1",
+    "message": "Pagination evidence message",
+    "status": "open",
+    "severity": "low",
+    "created_at": "2026-07-26T15:59:18.807106"
+  },
+  {
+    "id": 5,
+    "booking_id": 1,
+    "subject": "Page size 0",
+    "message": "Pagination evidence message",
+    "status": "open",
+    "severity": "low",
+    "created_at": "2026-07-26T15:59:18.786131"
+  },
+  {
+    "id": 4,
+    "booking_id": 1,
+    "subject": "Question",
+    "message": "",
+    "status": "open",
+    "severity": "medium",
+    "created_at": "2026-07-26T15:59:18.690559"
+  },
+  {
+    "id": 3,
+    "booking_id": 12,
+    "subject": "Need help with booking",
+    "message": "Please clarify baggage and refund options for this trip.",
+    "status": "open",
+    "severity": "medium",
+    "created_at": "2026-07-26T15:59:18.542925"
+  },
+  {
+    "id": 2,
+    "booking_id": 11,
+    "subject": "Need help with booking",
+    "message": "Please clarify baggage and refund options for this trip.",
+    "status": "open",
+    "severity": "high",
+    "created_at": "2026-07-26T15:59:18.538653"
+  },
+  {
+    "id": 1,
+    "booking_id": 8,
+    "subject": "Need help with booking",
+    "message": "Please clarify baggage and refund options for this trip.",
+    "status": "open",
+    "severity": "medium",
+    "created_at": "2026-07-26T15:59:18.535245"
+  }
+]
