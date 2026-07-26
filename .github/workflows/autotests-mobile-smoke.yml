@@ -1,0 +1,13 @@
+name: Autotests Mobile Smoke
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-flows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count Maestro flows
+        run: test $(find autotests/mobile-tests/maestro -name '*.yaml' | wc -l) -ge 10
+

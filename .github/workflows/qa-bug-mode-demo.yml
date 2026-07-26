@@ -1,0 +1,13 @@
+name: QA Bug Mode Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bug-mode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Explain demo
+        run: echo 'Manual workflow for QA_BUG_MODE=true. Expected failures are demonstration evidence, not main CI.'
+
