@@ -80,11 +80,11 @@ export function App() {
     }
   }
 
-  async function openBooking(id: number) {
+  async function openBooking(id: number, nextView?: View) {
     const details = await run(() => api.booking(token, id));
     if (details) {
       setSelected(details);
-      setView("search");
+      if (nextView) setView(nextView);
     }
   }
 
@@ -235,7 +235,7 @@ export function App() {
               searchBookings={searchBookings}
               bookings={bookings}
               selected={selected}
-              openBooking={openBooking}
+              openBooking={(id) => openBooking(id, "search")}
             />
           )}
           {view === "contacts" && selected && (

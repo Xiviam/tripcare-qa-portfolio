@@ -13,6 +13,7 @@
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
 }
 
 button,
@@ -164,6 +165,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   padding: 0 24px;
   background: #ffffff;
   border-bottom: 1px solid #d5e0e4;
@@ -173,6 +175,11 @@ h3 {
   display: flex;
   align-items: center;
   gap: 12px;
+  min-width: 0;
+}
+
+.brand div {
+  min-width: 0;
 }
 
 .brand strong,
@@ -183,6 +190,7 @@ h3 {
 .brand span {
   color: #63717a;
   font-size: 0.9rem;
+  overflow-wrap: anywhere;
 }
 
 .icon-button {
@@ -193,6 +201,7 @@ h3 {
 .workspace {
   display: grid;
   grid-template-columns: 236px 1fr;
+  min-width: 0;
   min-height: calc(100vh - 72px);
 }
 
@@ -200,6 +209,7 @@ h3 {
   display: grid;
   align-content: start;
   gap: 6px;
+  min-width: 0;
   padding: 18px;
   background: #e9eff1;
   border-right: 1px solid #d5e0e4;
@@ -210,6 +220,8 @@ h3 {
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  width: 100%;
+  min-width: 0;
   min-height: 42px;
   text-align: left;
 }
@@ -224,6 +236,7 @@ h3 {
   display: grid;
   align-content: start;
   gap: 18px;
+  min-width: 0;
 }
 
 .status-strip {
@@ -248,6 +261,7 @@ h3 {
   background: #ffffff;
   border: 1px solid #d5e0e4;
   border-radius: 8px;
+  min-width: 0;
 }
 
 .search-row {
@@ -347,7 +361,7 @@ th {
   .status-strip,
   .details-grid,
   .search-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .login-panel {
@@ -356,6 +370,14 @@ th {
 
   .brand-map {
     max-width: 160px;
+  }
+
+  .topbar {
+    height: auto;
+    min-height: 72px;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
   }
 
   .sidebar {
