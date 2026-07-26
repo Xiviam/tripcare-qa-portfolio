@@ -1,0 +1,9 @@
+services:
+  sut:
+    extends:
+      file: ../../platform/docker-compose.yml
+      service: api
+  postgres:
+    extends:
+      file: ../../platform/docker-compose.yml
+      service: db

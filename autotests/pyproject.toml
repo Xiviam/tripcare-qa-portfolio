@@ -1,0 +1,17 @@
+[tool.pytest.ini_options]
+testpaths = ["api-tests"]
+pythonpath = ["api-tests", "common/python"]
+markers = [
+  "smoke: critical smoke tests",
+  "regression: broader regression tests",
+  "negative: negative and validation checks",
+  "contract: schema and API contract checks"
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["B008"]

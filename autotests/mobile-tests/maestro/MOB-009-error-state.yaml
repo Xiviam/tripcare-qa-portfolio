@@ -1,0 +1,16 @@
+appId: com.tripcare.mobile
+---
+- launchApp
+- assertVisible: "TripCare Mobile"
+- tapOn: "customer@example.com"
+- inputText: "customer@example.com"
+- tapOn: "Customer123!"
+- inputText: "Customer123!"
+- tapOn: "Sign in"
+- assertVisible: "Booking search"
+- tapOn: "TC1001"
+- inputText: "TC1001"
+- tapOn: "Ivanov"
+- inputText: "Ivanov"
+- tapOn: "Find booking"
+- assertVisible: "TC1001"

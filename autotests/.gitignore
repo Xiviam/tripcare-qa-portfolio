@@ -1,0 +1,12 @@
+.venv/
+node_modules/
+allure-results/
+allure-report/
+playwright-report/
+test-results/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+tripcare.db
+!sut/.gitkeep
